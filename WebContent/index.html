@@ -6,40 +6,45 @@
 	<link rel="stylesheet" type="text/css" href="css/colorGame.css">
 </head>
 <body>
-	<h1>
-		<b>RGB Colors Generator</b>
-	</h1>
-	
-	<br>
-	<span id="colorDisplay">RGB</span> 
-	<br>
-	<span id="clickedColorDisplay"></span>
-	<br>
 
-<div class="col-md-10 offset-md-1">
-	<div class="card">
-  		<div class="card-body">
-    		<button type="button" class="btn btn-outline-secondary " id="programTitle">RGB Colors Generator</button>
+    <div class="container-fluid" id="navColorDisplay">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Nav Bar</a>
+            </li>
+        </ul>
+    </div>
 
-  	</div>
-	</div>
-</div>
 
-<div id="stripe">
-	<button id="reset">New Colors</button>
-	<span id="message"></span>
-	<button class="mode">Easy</button>
-	<button class="mode selected">Hard</button>
-</div>
+    <div class="col-md-4 offset-md-4" id="appContainer">
+        <div class="card box-shadow">
+            <div class="card-body">
+                <h1>
+                    <b>RGB Colors Generator</b>
+                </h1>
+                <div class="col-md-10 offset-md-1">
+                    <div class="card">
+                        <div class="card-body" id="backgroundDisplay">
+                            <button type="button" class="btn btn-light" id="clickedColorDisplay">Click A Color</button>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="btn btn-outline-secondary " id="reset">New Colors</button>
+                    <hr>
+                    <div class="container">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	<div class="container">
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-	</div>
+
 
 <script type="text/javascript" src="js/colorGame.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

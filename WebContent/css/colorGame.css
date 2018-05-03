@@ -2,7 +2,23 @@ html{
 	font-family: sans-serif;
 }
 
-  .square {
+body{
+	background: #f8f9fa;
+}
+
+.card-body{
+	text-align: center;
+}
+
+#appContainer{
+	padding-top: 5em;
+}
+
+.box-shadow {
+	box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05)
+}
+
+.square {
 	width: 30%;
 	background: purple;
 	padding-bottom: 30%;
@@ -15,14 +31,9 @@ html{
 } 
 
 h1{
-	margin-top: 1em;
 	text-align: center;
+	padding-bottom: 0.5em;
 	/* background: #12bbad; */
-}
-
-#programTitle .btn-outline-secondary{
-	color: white; 
-	border-color: white;
 }
 
 #colorDisplay {
@@ -45,6 +56,10 @@ h1{
 	color: white;
 	background: #12bbad;
 }
+
+/*#clickedColorDisplay{
+	-webkit-filter: invert(100%);
+}*/
 
 button {
 	border: none;
